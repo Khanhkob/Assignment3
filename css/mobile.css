@@ -1,0 +1,53 @@
+@media only screen and (max-width: 768px) {
+/* Iphone 6/7/8 */
+    
+    #project .container {
+        display: block !important;
+    }
+
+
+    #certificate .container {
+        display: initial;
+    }
+    .card img {
+        
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    #job-info .container {
+        display: block;
+    }
+
+    #about{
+        display:flex;
+    }
+    #about .container {
+        display: initial;
+    }
+    #nav-bar .container {
+        display: block;
+        padding-top: 180px;
+    }
+    #nav-bar .avatar {
+        margin-left: 23%;
+        top: -20px;
+    }
+
+    .start {
+        padding-right: 0px;
+    }
+    
+    .du-an-img {
+        width: 352px;
+    }
+    .borderleft {
+        border-left: none;
+        padding-left: 0;
+        /* margin-left: -20px; */
+    }
+    .du-an-border {
+        margin-top: 20px;
+    }
+   
+    
+}

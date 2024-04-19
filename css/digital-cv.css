@@ -1,0 +1,92 @@
+
+#container {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(13, 13, 252, 0.933);
+    color: black;
+    position: relative;
+    padding: 10px;
+    margin: 40px;
+    height:1000px;
+    border-radius: 1%;
+    font-family: sans-serif;
+}
+
+#container .content-title {
+    margin: 10px;
+}
+
+.content-title h3 {
+    border-bottom: 0.5px solid rgb(163, 169, 172);
+    height: 50px;
+    color: blue;
+    font-size: 30px;
+}
+
+.timeline {
+    grid-row: span 2;
+}
+
+.in-out {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+
+.border {
+    background-color: #e0ecf4;
+    margin: 10px;
+    padding: 15px;
+}
+.goals{
+    margin: 10px;
+}
+
+.goals-text{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 3px solid rgb(188, 188, 193);
+    
+}
+
+.goals .text{
+    padding-left:50px;
+    align-items: center;
+    
+}
+
+.team{
+}
+.teams-text{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+.team .text{
+    padding-left: 30px;
+}
+
+.timeline-text{
+    display:flex;
+    align-items: center;
+    padding: 10px;
+}
+.timeline .text{
+    padding-left: 30px;
+}
+
+
+.primary-text{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+.primary .text{
+    padding-left: 30px;
+}
+
