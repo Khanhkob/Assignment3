@@ -252,6 +252,7 @@ ul {
 .card img {
     flex: 0.35;
     object-fit: contain;
+    margin-bottom: 10px;
 }
 
 .card--text {
